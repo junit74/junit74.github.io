@@ -14,13 +14,13 @@
   <link rel="icon" href="./assets/uniway-favicon-64.png" type="image/png" sizes="64x64">
   <link rel="icon" data-theme-favicon href="./assets/uniway-favicon-adaptive.svg" type="image/svg+xml" sizes="any">
   <link rel="apple-touch-icon" href="./assets/apple-touch-icon-light-bg.png">
-  <link rel="stylesheet" href="./style.css?v=logo-dark-02">
+  <script src="./theme.js?v=site-theme-04"></script><link rel="stylesheet" href="./style.css?v=site-theme-04">
 </head>
 <body>
   <a class="skip" href="#main">본문으로 바로가기</a>
   <header class="site-header">
-    <a class="brand" href="./" aria-label="유니웨이 홈"><img class="brand-symbol" src="./assets/uniway-symbol.svg" width="44" height="44" alt=""><span>UNI-Way</span></a>
-    <nav aria-label="주요 메뉴"><a href="#about">스튜디오</a><a href="#games">게임</a><a href="#contact">문의 <span aria-hidden="true">↗</span></a></nav>
+    <a class="brand" href="./" aria-label="유니웨이 홈"><img class="brand-symbol theme-logo-light" src="./assets/uniway-symbol.svg" width="44" height="44" alt=""><img class="brand-symbol theme-logo-dark" src="./assets/uniway-symbol-on-dark.svg" width="44" height="44" alt=""><span>UNI-Way</span></a>
+    <nav aria-label="주요 메뉴"><a href="#about">스튜디오</a><a href="#games">게임</a><a href="#contact">문의 <span aria-hidden="true">↗</span></a></nav><label class="theme-control" hidden><span>화면 테마</span><select id="theme-select" aria-label="화면 테마"><option value="system">자동</option><option value="light">밝게</option><option value="dark">어둡게</option></select></label>
   </header>
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
@@ -33,7 +33,7 @@
       </div>
       <div class="hero-art" role="img" aria-label="위쪽으로 향하는 화살표와 U 심볼, UNI-Way 회사명으로 구성된 유니웨이 로고">
         <div class="art-grid"></div><span class="art-label">EVERY WAY STARTS WITH PLAY.</span>
-        <img class="hero-logo" src="./assets/uniway-logo.svg" width="843" height="817" alt="" fetchpriority="high">
+        <img class="hero-logo theme-logo-light" src="./assets/uniway-logo.svg" width="843" height="817" alt="" fetchpriority="high"><img class="hero-logo theme-logo-dark" src="./assets/uniway-logo-on-dark.svg" width="843" height="817" alt="" fetchpriority="high">
         <div class="art-bottom"><span>UNI—VERSE / 01</span><span>PLAY YOUR OWN WAY <span aria-hidden="true">↗</span></span></div>
       </div>
     </section>
