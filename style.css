@@ -25,3 +25,15 @@
 .theme-control select{font:inherit;font-size:12px;font-weight:600;min-height:40px;padding:8px 26px 8px 10px;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:6px;cursor:pointer}
 @media(max-width:720px){.site-header{flex-wrap:wrap;gap:8px 14px;padding-top:14px;padding-bottom:14px}.site-header .brand{margin-right:auto}.site-header nav{order:3;width:100%;margin:0;justify-content:flex-end;gap:24px}.theme-control>span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.theme-control select{min-height:40px}.hero{padding-top:0}}
 @media(max-width:720px){.theme-control select{min-height:44px;font-size:16px}.site-header nav a{display:inline-flex;align-items:center;min-height:44px;font-size:14px}.contact-email{padding-top:6px;min-height:44px}.footer-bottom a{display:inline-flex;align-items:center;min-height:44px}}
+
+/* Actual game captures preserve the complete landscape UI at every width. */
+.game-screenshot{margin:0;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.game-shot-link{display:block;line-height:0;cursor:zoom-in}
+.game-shot-link:focus-visible{outline-offset:-4px}
+.game-screenshot img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain}
+.game-screenshot figcaption{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:16px 18px;font-size:12px;line-height:1.6}
+.game-featured{border:0;border-radius:0;display:flex;flex-direction:column;justify-content:center;background:#233c30;color:#f4f4ec}
+.game-featured figcaption{color:#d8e4d6;font-size:11px}
+.game-gallery{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px}
+.game-capture-note{font-size:12px;line-height:1.8;color:var(--muted);margin:16px 0 0}
+@media(max-width:720px){.game-gallery{grid-template-columns:1fr;gap:20px;margin-top:20px}.game-screenshot figcaption{padding:14px;font-size:11px}.game-featured figcaption{font-size:10px}}
