@@ -11,6 +11,5 @@
 .hero-logo{position:absolute;width:100%;height:100%;inset:0;object-fit:contain;padding:65px 44px 55px}
 .art-label,.art-bottom{z-index:1}
 .footer-brand{display:inline-flex;align-items:center;gap:13px}
-.footer-brand .footer-logo-tile{display:flex;align-items:center;justify-content:center;background:#f4f4ec;border-radius:8px;width:56px;height:56px;margin:0}
-.footer-logo-tile img{display:block;width:56px;height:56px;object-fit:contain}
-@media(max-width:720px){.brand .brand-symbol{width:34px;height:34px}.brand{gap:5px}.hero-logo{padding:60px 26px 50px}.footer-brand .footer-logo-tile,.footer-logo-tile img{width:46px;height:46px}}
+.footer-brand .footer-symbol{display:block;width:56px;height:56px;object-fit:contain}
+@media(max-width:720px){.brand .brand-symbol{width:34px;height:34px}.brand{gap:5px}.hero-logo{padding:60px 26px 50px}.footer-brand .footer-symbol{width:46px;height:46px}}
