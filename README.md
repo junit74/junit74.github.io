@@ -26,4 +26,4 @@ http://127.0.0.1:8765/ 에서 확인할 수 있습니다. `main` 브랜치에 �
 
 ## Google 웹사이트 소유권 인증
 
-Play Console 계정으로 Search Console에서 실제 사이트 URL을 등록하고, Google이 제공하는 인증 파일 또는 태그를 추가한 뒤 소유권을 확인해야 합니다. 인증이 완료되면 인증 파일/태그를 계속 유지하세요. 홈페이지 배포 자체가 Google 소유권 인증 완료를 의미하지는 않습니다.
+`index.html`의 `<head>`에 Google Search Console 인증 태그를 추가했습니다. Play Console 계정으로 Search Console에서 `https://junit74.github.io/` URL 접두어 속성을 등록하고, 소유권 확인 화면의 확인 버튼을 눌러야 합니다. 인증이 완료되면 태그를 계속 유지하세요. 홈페이지 배포 자체가 Google 소유권 인증 완료를 의미하지는 않습니다.
